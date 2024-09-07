@@ -1,0 +1,396 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --main-font:"Open Sans";
+  --secondary-font:"Montserrat";
+  --third-font:"Roboto";  
+}
+
+body{
+  width: 1440px;
+  margin-inline: auto;
+  color: white;
+}
+
+header{
+  padding-block: 32px;
+  background-color: #212121;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-header{
+  margin-left: 165px;
+}
+
+.icon-header{
+  margin-right: 165px;
+  display: flex;
+}
+
+.icon-inner{
+  margin-left: 48px;
+}
+
+.gift-icon{
+  margin-right: 48px;
+}
+
+.avatar-inner a{
+  text-decoration: none;
+  color: white;
+  font-family: var(--third-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.avatar-inner span{
+  margin-inline: 8px;
+}
+
+.avatar-inner img{
+  vertical-align: middle;
+}
+/* Header part over */
+.container{
+  padding-top: 88px;
+  padding-bottom: 120px;
+  padding-inline: 165px;
+  background-color: #212121;
+}
+
+.main-content{
+  display: flex;
+}
+
+h1{
+  margin-top: 52px ;
+  font-family: var(--secondary-font);
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+p{
+  font-family: var(--main-font);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 16px;
+}
+
+.text-container img{
+  margin-top: 29px;
+}
+
+.google-play{
+  margin-left: 27px;
+}
+
+/* Main content over */
+
+/* client part coming */
+.client-content{
+  padding-block: 56px;
+}
+
+h6{
+  font-family: var(--main-font);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #807E7E;
+}
+
+.client-logo{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 28px;
+  margin-bottom: 56px;
+}
+
+.client-logo img{
+  filter: grayscale(0.6) brightness(0.5);
+}
+
+/* client part over */
+/* graphics part coming */
+
+h3{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  font-family: var(--secondary-font);
+  margin-top: 120px;
+  margin-bottom: 16px;
+}
+
+h2{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  font-family: var(--secondary-font);
+}
+
+.graphics-content img{
+  margin-top: 72px;
+  margin-bottom: 120px;
+}
+/* Graphics part over */
+/* apple watch part coming */
+
+.apple-content{
+  display: flex;
+}
+
+.apple-content-text{
+  margin-top: 89px;
+}
+
+.apple-content-image{
+  margin-top: 120px;
+}
+
+.apple-content a{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 209px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  font-family: var(--secondary-font);
+}
+/* apple watch part over */
+
+.analytic-content{
+  text-align: center;
+}
+
+.analytic-content img{
+  margin-top: 48px;
+  margin-bottom: 120px;
+}
+/* price part coming */
+
+h5{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  text-align: center;
+  font-family: var(--secondary-font);
+  color: #FFFFFF;
+}
+
+.color-paragraph{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  font-family: var(--main-font);
+  color: #FFFFFF;
+  margin-top: 16px;
+}
+
+h4{
+  font-family: var(--secondary-font);
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -0.699999988079071px;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.price-content{
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.personal-content {
+  background-color:#121212;
+  border-radius: 12px;
+  padding: 40px;
+  width: 354px;
+} 
+
+.subscribe-button{
+  text-decoration: none;
+  color: white;
+  background-color: #DC3545;
+  padding: 16px 72px;
+  border-radius: 3px;
+  font-family: var(--secondary-font);
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+}
+
+.pricing-boxes{
+  display: flex;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+/* price part over */
+/* Frequently part coming */
+
+.frequently-container{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+details{
+  list-style: none;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  font-family: var(--secondary-font);
+  border-bottom: 1px solid #3F3B3B;
+  padding-block: 25px;
+}
+
+summary{
+  list-style: none;
+}
+
+.summary-paragraph{
+  font-family:var(--main-font);
+  font-size:16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+
+.frequently-text{
+  font-family: var(--secondary-font);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  border-bottom: 1px solid #3F3B3B;
+  margin-bottom: 32px;
+}
+
+/* call to action start */
+
+.call-to-action{
+  background-color: black;
+  width: 1110px;
+  height: 349px;
+  margin-inline: auto;
+  margin-top: 50px;
+  }
+
+  .container-right{
+  float: inline-end;
+  margin-right: 61px;
+  margin-top: 36px;
+  }
+
+  .container-left{
+  margin-left: 96px;
+  margin-top: 40px;
+  display: inline-block;
+  }
+
+  .container-left h1{
+  font-family: var(--secondary-font);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: white;
+  margin-bottom: 10px;
+  }
+
+  .container-left a{
+  display: inline-block;
+  background-color: #DC3545;
+  color: white;
+  text-decoration: none;
+  width: 280px;
+  height: 64;
+  padding: 16px 72px;
+  border-radius: 3px;
+  margin-top: 15px;
+  text-align: center;
+  font-family: var(--secondary-font);
+  }
+
+  /* last content start */
+  .last-content{
+    padding-top: 88px;
+    padding-bottom: 72px;
+    padding-inline: 165px;
+    background-color:black;
+  }
+
+.last-content-inner{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    gap: 24px ;
+  }
+
+.first-box{
+    display: flex;
+    flex-direction: column;
+    width: 165px;
+  }
+
+.last-span{
+  font-family:var(--main-font);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  }
+
+.last-content a{
+  text-decoration: none;
+  color: #807E7E;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  font-family: var(--main-font);
+  margin-top: 8px;
+  }
+  /* last content over */
+  /* really last part coming(footer) */
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid  #3F3B3B ;
+  background-color: black;
+  padding-inline: 195px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  }
+
+.footer-inner-text{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #807E7E;
+  font-family: var(--main-font);
+  }
+
+.footer-logos{
+  gap:40px;
+  display: flex;
+}
+
+
+
+
+
